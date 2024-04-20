@@ -1,0 +1,17 @@
+{
+  "PolicyName": "root",
+  "PolicyDocument": {
+    "Version": "2016-11-22",
+    "Statement": [
+      {
+        "Sid": "IamListAccess",
+        "Effect": "Allow",
+        "Action": [
+          "iam:ListRoles",
+          "iam:ListUsers"
+        ],
+        "Resource": "ppapp"
+      }
+    ]
+  }
+}
