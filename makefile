@@ -5,6 +5,3 @@ parser: src/main.go src/verifier.go
 
 test: src/verifier_test.go
 	go test ./src
-
-clean:
-	rm parser
